@@ -11,7 +11,9 @@ import SwiftUI
 struct Product_Listing_PageApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                ContentView()
+            }.navigationTitle("Products")
         }
     }
 }
